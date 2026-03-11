@@ -1,14 +1,23 @@
 /**
  * OOPSBannerApp
- * 
- * This program prints "OOPS" to the console.
- * 
- * @author YourName
- * @version 1.0
+ *
+ * Prints OOPS in Banner format.
+ *
+ * @author Arnav
+ * @version 2.0
  */
 
 public class OOPSBannerApp {
+
+  
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        // Each letter (O, O, P, S) is 9 characters wide, aligned properly
+        System.out.println("  *****   " + "  *****   " + " ******** " + " ******** ");
+        System.out.println(" *     *  " + " *     *  " + " *       *" + " *        ");
+        System.out.println(" *     *  " + " *     *  " + " *       *" + " *        ");
+        System.out.println(" *     *  " + " *     *  " + " ******** " + " ******** ");
+        System.out.println(" *     *  " + " *     *  " + " *         " + "       *  ");
+        System.out.println(" *     *  " + " *     *  " + " *         " + "       *  ");
+        System.out.println("  *****   " + "  *****   " + " *         " + " ******** ");
     }
 }
